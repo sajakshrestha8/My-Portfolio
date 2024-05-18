@@ -47,7 +47,7 @@
     display: grid;
     grid-template-columns: 0.06fr 0.06fr 0.06fr;
     margin-left: 13rem;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .facebook{

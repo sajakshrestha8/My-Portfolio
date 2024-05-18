@@ -31,12 +31,16 @@
     display: grid;
     grid-template-rows: 0.5fr 1fr;
     padding: 10px;
+    transition:0.3s;
 }
+
+
 
 .html:hover{
     background-color: rgb(107, 102, 102);
     opacity: 0.6;
     color: black;
+    transform: scale(1.02);
 }
 
 .html-info{
