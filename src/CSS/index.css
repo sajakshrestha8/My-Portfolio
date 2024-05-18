@@ -1,21 +1,33 @@
 @import "./components/info.css";
 @import "./components/about.css";
+@import "./components/work.css";
+@import "./components/Myprojects.css";
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 body{
-    background-image: url(../assets/image.png);
+    background-image: url(../assets/bg.png);
     background-repeat: no-repeat;
-    background-size: 100% 50rem;
+    background-size: 100% 45rem;
     font-family: "Kanit", sans-serif;
+    background-color: #272822;
 }
 
 .about-section{
     background-image: url(../assets/about.png);
-    height: 44rem;
+    height: 110%;
     background-repeat: no-repeat;
-    width: 101.5%;
+    width: 101%;
     margin-left: -10px;
     background-size: 100% 50rem;
+    color: white;
+}
+
+.work-section{
+    background-color: #272822;
+    height: 100%;
+    width: 101%;
+    margin-left: -10px;
+    padding-top: 30px;
     color: white;
 }

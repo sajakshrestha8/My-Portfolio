@@ -1,3 +1,10 @@
+.skills-heading{
+    font-size: 60px;
+    font-weight: bold;
+    display: grid;
+    text-align: center;
+}
+
 .landing-page-wrapper{
     display: grid;
     grid-template-rows: 0.8fr 0.8fr 0.8fr ;
@@ -50,8 +57,10 @@
 
 .instagram{
     height: 44px;
+    width: 44px;
 }
 
 .linkedin{
     height: 44px;
+    width: 44px;
 }

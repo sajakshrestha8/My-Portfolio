@@ -3,22 +3,45 @@
     grid-template-columns: 0.6fr 0.6fr 0.6fr 1fr;
     gap: 10px;
     column-gap: -20rem;
-    margin-left: 7rem;
+    margin-left: 8rem;
 }
 
 .logo-name{
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 0.2fr 1fr;
 }
 
 .logo{
     height: 60px;
 }
 
+.syntax{
+    color: rgb(106, 199, 7);
+}
+
+.close{
+    color: rgb(106, 199, 7);
+}
+
 .html{
-    height: 20rem;
-    width: 20rem;
+    height: 18rem;
+    width: 18rem;
     border: 2px solid white;
+    border-radius: 12px;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    padding: 10px;
+}
+
+.html:hover{
+    background-color: rgb(107, 102, 102);
+    opacity: 0.6;
+    color: black;
+}
+
+.html-info{
+    padding-left: 15px;
+    font-size: 20px;
 }
 
 .css{
@@ -55,4 +78,9 @@
     height: 20rem;
     width: 20rem;
     border: 2px solid white;
+}
+
+.skill-desc{
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
