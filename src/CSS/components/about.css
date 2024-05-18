@@ -1,0 +1,58 @@
+.skills-wrapper{
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 0.6fr 1fr;
+    gap: 10px;
+    column-gap: -20rem;
+    margin-left: 7rem;
+}
+
+.logo-name{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.logo{
+    height: 60px;
+}
+
+.html{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid white;
+}
+
+.css{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid white;
+}
+
+.js{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid white;
+}
+
+.react{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid white;
+}
+
+.java{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid white;
+}
+
+.c{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid white;
+}
+
+.sql{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid white;
+}
