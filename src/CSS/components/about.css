@@ -88,3 +88,63 @@
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
+/* Responsive */
+
+@media(max-width: 450px){
+    .skills-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+        /* gap: 1px; */
+        margin-left: 4px;
+    }
+    
+    .logo-name{
+        display: grid;
+        grid-template-columns: 0.2fr 1fr;
+    }
+    
+    .logo{
+        height: 40px;
+    }
+    
+    .syntax{
+        color: rgb(106, 199, 7);
+    }
+    
+    .close{
+        color: rgb(106, 199, 7);
+    }
+    
+    .html{
+        height: 13rem;
+        width: 11.7rem;
+        border: 2px solid white;
+        border-radius: 12px;
+        display: grid;
+        grid-template-rows: 0.5fr 1fr;
+        padding: 5px;
+        transition:0.3s;
+    }
+    
+    
+    
+    .html:hover{
+        background-color: rgb(107, 102, 102);
+        opacity: 0.6;
+        color: black;
+        transform: scale(1.02);
+    }
+    
+    .html-info{
+        padding-left: 15px;
+        font-size: 12px;
+    }
+    
+
+    
+    .skill-desc{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

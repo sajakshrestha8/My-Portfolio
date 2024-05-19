@@ -17,3 +17,25 @@
     font-family: "Josefin Sans", sans-serif;
     margin-left: 20rem;
 }
+
+/* Responsive */
+
+@media(max-width: 450px){
+    .work-heading{
+        font-size: 60px;
+        font-weight: bold;
+        display: grid;
+        text-align: left;
+        margin-left: 1rem;
+        grid-template-rows: 0.5fr 1fr;
+        margin-bottom: 2rem;
+        margin-top: 5rem;
+    }
+    
+    .work-desc{
+        width: 20%;
+        font-size: 15px;
+        font-family: "Josefin Sans", sans-serif;
+        margin-left: 1rem;
+    }
+}   

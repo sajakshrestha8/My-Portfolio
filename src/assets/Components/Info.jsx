@@ -12,16 +12,19 @@ function Info() {
         <div className="image-frontend">
           <div>
             <div className="heading">
-              <span className="frontend-head">Frontend</span>
-              <span className="frontend-head">Developer.</span>
+              <div>
+                <span className="frontend-head">Frontend</span>
+              </div>
+              <div>
+                <span className="frontend-head">Developer.</span>
+              </div>
             </div>
 
             <div>
-              <span className="frontend-desc">
+              <div className="frontend-desc">
                 I like to design and create solid and scalable
-              </span>
-              <br />
-              <span className="frontend-desc">product with great UI.</span>
+              </div>
+              <div className="frontend-desc">product with great UI.</div>
             </div>
           </div>
 
@@ -31,7 +34,7 @@ function Info() {
         </div>
 
         <div>
-          <span className="know-head">Want to know me personally?</span>
+          <div className="know-head">Want to know me personally?</div>
 
           {/* Social media */}
           <div className="social-media-wrapper">

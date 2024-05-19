@@ -1,5 +1,6 @@
 import "./CSS/index.css";
 import About from "./assets/Components/About";
+import Footer from "./assets/Components/Footer";
 import Info from "./assets/Components/Info";
 import Myprojects from "./assets/Components/Myprojects";
 import Work from "./assets/Components/Work";
@@ -72,6 +73,10 @@ function App() {
             </a>
           }
         />
+      </section>
+
+      <section className="footer-wrapper">
+        <Footer />
       </section>
     </>
   );

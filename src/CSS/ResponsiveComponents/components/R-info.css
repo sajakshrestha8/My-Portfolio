@@ -1,0 +1,70 @@
+.skills-heading{
+    font-size: 60px;
+    font-weight: bold;
+    display: grid;
+    text-align: center;
+}
+
+.landing-page-wrapper{
+    display: grid;
+    grid-template-rows: 0.8fr 0.8fr 0.8fr ;
+    margin-top: 70px;
+    margin-left: 7rem;
+}
+
+@media only screen and (min-width:400px){
+    
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    color: #59EB5E;
+}
+
+.heading{
+    display: grid;
+    gap: -20px;
+}
+
+.frontend-head{
+    font-size: 70px;
+    font-weight: 700;
+    color: #59EB5E;
+    margin-left: 6rem;
+}
+
+.frontend-desc{
+    font-size: 20px;
+    color: white;
+    margin-left: 6rem;
+}
+
+.know-head{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 6rem;
+}
+
+.social-media-wrapper{
+    display: grid;
+    grid-template-columns: 0.06fr 0.06fr 0.06fr;
+    margin-left: 13rem;
+    /* margin-top: 10px; */
+}
+
+.facebook{
+    height: 44px;
+    width: 44px;
+}
+
+.instagram{
+    height: 44px;
+    width: 44px;
+}
+
+.linkedin{
+    height: 44px;
+    width: 44px;
+}
